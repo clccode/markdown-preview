@@ -19,8 +19,10 @@ function App() {
   - Second item
   - Third item
   > blockquote
-  ![alt text](image.jpg)
-  **bold text**
+  You can also add images:
+  ![code image](https://live.staticflickr.com/822/40238552784_c48d2029a2_n.jpg)
+  **You can easily add bold text...**
+  *...and text in italics too.*
   `);
 
   marked.setOptions({
