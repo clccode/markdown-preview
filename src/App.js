@@ -15,27 +15,29 @@ function App() {
   Or fenced in code blocks like this:
 
   \`\`\`
-{
-  "firstName": "Clark",
-  "lastName": "Kent",
-  "age": ?
-}
+  {
+      "firstName": "Clark",
+      "lastName": "Kent",
+      "age": ?
+  }
 
-\`\`\`
+  \`\`\`
 
-Here's an unordered list:
+  Here's an unordered list:
   - First item
   - Second item
   - Third item
 
-  You can also enter blockquotes: > "I have a dream!"
+  You can also enter blockquotes: 
+  
+  > "I have a dream!"
 
   You can also add images:
 
   ![code image](https://live.staticflickr.com/822/40238552784_c48d2029a2_n.jpg)
 
   **You can easily add bold text...**
-  
+
   *...and text in italics too.*
   `);
 
