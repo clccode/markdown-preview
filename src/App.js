@@ -4,24 +4,38 @@ import './App.css';
 
 function App() {
   const [text, setText] = useState(`
-  # H1
-  ## H2
-  [FreeCodeCamp](https://www.freecodecamp.org)
-  \`<p>You can also insert code</p>\`
+  # Welcome to my simple Markdown Previewer!
+  ## This is a subheading
+  ### Here are some other cool things you can do:
+
+  [Links, like this one to my GitHub page](https://github.com/clccode)
+
+  \`<p>You can also insert code like this</p>\`
+
+  Or fenced in code blocks like this:
+
   \`\`\`
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+  "firstName": "Clark",
+  "lastName": "Kent",
+  "age": ?
 }
+
 \`\`\`
+
+Here's an unordered list:
   - First item
   - Second item
   - Third item
-  > blockquote
+
+  You can also enter blockquotes: > "I have a dream!"
+
   You can also add images:
+
   ![code image](https://live.staticflickr.com/822/40238552784_c48d2029a2_n.jpg)
+
   **You can easily add bold text...**
+  
   *...and text in italics too.*
   `);
 
